@@ -7,3 +7,4 @@ IPython
 myst-nb==0.13.2
 # Fixing upper version due to https://github.com/sphinx-doc/sphinx/issues/10306
 Jinja2<3.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
